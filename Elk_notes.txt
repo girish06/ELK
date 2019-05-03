@@ -1,0 +1,86 @@
+03/04/2018
+===============
+
+Session:1
+Getting started
+
+Tuturiol-1
+==========
+Intro:
+
+Elastic search is a search engine
+Handling hundereds of requests per second
+focus on searrching data with elastic search
+kibana for running queries
+
+learn:
+complex search queries
+relavance scoring
+synonyms
+stemming
+auto-completion
+statistics with aggregations
+
+github: https://github.com/codingexplained/complete-guide-to-elasticsearch
+
+Tuturiol-2
+==========
+Introduction to elastic Seach
+Elastic search  is an open source and full text search engine
+
+search includes
+    autocomplete
+    relavance etc.. pointed in Tuturiol-1
+
+Powerfull search engine
+query and analyse structure the data
+use an elastic search as an analystic platform
+we can result in line chart, pie chart etc..
+Analyse applications logs and system matrics
+    errors and cpu/memory usage
+
+Application performance management
+   common usecase of elasticsearch and elastic stack
+
+sends events to elastic search
+   eg: sales, website clicks, phone calls etc.
+
+aggregations:
+   we can do it by relational databases
+
+forecasting phonecalls
+
+Anamality detection
+   website users sudden growth and decrease
+   machine learning
+   we can have notfications alerts such as emails, messages, phonecalls
+
+
+How does it work
+++++++++++++++++++++
+-> In elastic search data are stored as documents
+    similar to row in a relational database (mysql)
+-> documents data are seperated into fields
+    similar to column in a relational database(mysql)
+->  document is a simply a json object
+
+quering in elastic search:
+
+ client------------->request---------------->rest api
+       <------------response<----------------
+
+
+Elastic search is written in java and built on apache lucene.
+easy to use and highly scalable.
+
+
+elastic search is used by many companies like
+   -> quora
+   -> facebook
+   -> adobe
+   -> Netflix
+   -> mozila
+   -> soundcloud
+   -> wikipedia
+   -> foursquare
+   -> stack exchange
